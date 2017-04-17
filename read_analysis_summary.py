@@ -1,3 +1,9 @@
+"""
+author::nipun.shrivastav
+input::
+output::
+description::Function to read a file delimited by any delimiter into array
+"""
 import re
 
 def readContents(filename):
