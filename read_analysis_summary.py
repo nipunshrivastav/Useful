@@ -15,6 +15,7 @@ def readContents(filename):
 	regexPattern = '|'.join(map(re.escape, delimiters))
 	content = [re.split(regexPattern, x.strip()) for x in content]
 	content = [filter(None, x) for x in content]
+	f.close()
 	return content
 
 
